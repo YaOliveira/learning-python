@@ -14,3 +14,5 @@ print("l" == "L", type("l" == "L"))  # False bool
 print("L" == "L", type("L" == "L"))  # True bool
 print(bool(""))  # False
 print(bool("10"))  # True
+print(bool([]))  # False
+print(bool(0))  # False
