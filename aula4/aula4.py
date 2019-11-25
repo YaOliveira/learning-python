@@ -17,3 +17,19 @@ print(bool("10"))  # True
 print(bool([]))  # False
 print(bool(0))  # False
 print ("yara", type("yara"), bool("yara"))  # Transformation uma string em boolean
+print('10', type('10'), int('10'))  # Transformation uma string em integer
+print('10', type('10'), type(int('10')))  # Transformation uma string em integer
+print(10, type(10), int(10))  # não terá ponto flutuante
+print(10, type(10), float(10))  # terá ponto flutuante
+
+# String: nome
+print('Yara', type('Yara'))
+
+# Integer: idade
+print('36', type(36))
+
+# Float: altura
+print(1.43, type(1.43))
+
+# Verificar se é < 18
+print(36 > 18, type(32 > 18))
